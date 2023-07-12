@@ -1,0 +1,123 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+.navbar{
+    position:sticky;
+}
+.navbar .navbar-brand{
+    color:white;
+    
+}
+.navbar-toggler{
+    border:1px solid white;
+}
+.nav-item a{
+    color:white;
+}
+.nav-item a:hover{
+    color:white;
+    border-bottom: 1px solid red;
+        
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height:100vh;
+}
+
+#home h3{
+    
+    color:white;
+    font-weight: 750px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url("https://static.toiimg.com/photo/74416043.cms");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home p{
+    color:WHITE;
+    font-weight:bold;
+    font-size: 20;
+    
+}
+#about{
+    background-color: rgb(218, 183, 183);
+}
+#about .img-fluid{
+    mix-blend-mode:multiply;
+     
+}
+#about P{
+    color:green;
+    font-weight: bold;
+}
+#products{
+    background-color: rgb(247, 193, 46);
+}
+#products h1{
+    color:red; 
+    display:flex;
+    justify-content: center;
+}
+#products h1:hover{
+    /* color:green; */
+    border-bottom:1px solid rgb(39, 115, 187);
+    /* width:50px; */
+}
+.card-img-top{
+    border-radius: 20px;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height:75vh;
+    margin:15px;
+    border-radius:20px;
+    border:none;
+    overflow: hidden;
+    
+
+}
+#contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+input{
+    margin:10px;
+}
+#signup{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(206, 48, 48);
+}
+#login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(168, 184, 26);
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    background-color:rgb(56, 169, 235);
+}
+footer i{
+    font-size:30px;
+}
